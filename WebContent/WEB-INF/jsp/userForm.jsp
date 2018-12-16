@@ -12,11 +12,11 @@
 <form:form method="POST" commandName="user">
 	<table>
 		<tr>
-			<td>Student Name :</td>
+			<td>Employee Name :</td>
 			<td><form:input path="name" /></td>
 		</tr>
 		<tr>
-			<td>Student Password :</td>
+			<td>Employee Password :</td>
 			<td><form:password path="password" /></td>
 		</tr>
 		<tr>
@@ -28,9 +28,9 @@
 			<td>Country :</td>
 			<td><form:select path="country">
 				<form:option value="0" label="Select" />
-				<form:option value="1" label="IND" />
-				<form:option value="2" label="CHN" />
-				<form:option value="3" label="US" />
+				<form:option value="1" label="INDIA" />
+				<form:option value="2" label="CHAINA" />
+				<form:option value="3" label="USA" />
 				<form:option value="4" label="UK" />
 			</form:select></td>
 		</tr>
