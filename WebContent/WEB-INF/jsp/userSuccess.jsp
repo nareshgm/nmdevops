@@ -9,11 +9,11 @@
 <body>
 User Details
 <hr>
-User Name   : ${user.name} <br/>
-Gender      : ${user.gender} <br/>
-Country     : ${user.country} <br/>
-About You   : ${user.aboutYou} <br/>
-Community   : ${user.community[0]}  ${user.community[1]} ${user.community[2]}<br/>
+User Name1   : ${user.name} <br/>
+Gender1      : ${user.gender} <br/>
+Country1     : ${user.country} <br/>
+About You1   : ${user.aboutYou} <br/>
+Community1   : ${user.community[0]}  ${user.community[1]} ${user.community[2]}<br/>
 Mailing List: ${user.mailingList} 
 </body>
 </html>
